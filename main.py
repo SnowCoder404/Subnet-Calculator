@@ -1,8 +1,8 @@
 import ipcalc
+import sys
 
-data = input('Geben sie eine IP mit Subnet ein\n')
 file = open('textdatei.txt', 'w')
 
-for x in ipcalc.Network(data):
+for x in ipcalc.Network(sys.argv[1]):
     file.write(str(x))
     file.write('\n')
