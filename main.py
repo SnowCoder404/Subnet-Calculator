@@ -1,3 +1,6 @@
+#
+#   Copyright © 2024, SnowCoder404
+#
 import ipcalc
 import sys
 
